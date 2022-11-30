@@ -9,7 +9,7 @@ namespace LINQSamples
         public static List<Product> GetAll()
         {
             return new List<Product>
-      {
+        {
         new Product {
           ProductID = 680,
           Name = "HL Road Frame - Black, 58",
@@ -330,8 +330,23 @@ namespace LINQSamples
           ListPrice = 1349.60M,
           Size = "44",
         }
-      };
+        };
         }
+        #endregion
+
+        #region Module 11
+
+        //public static List<Product> GetAll()
+        //{
+        //    return new List<Product>
+        //    {
+        //        new Product { Name = "Sport-100 Helmet", Color = "Red" },
+        //        new Product { Name = "Road Frame", Color = "Black" },
+        //        new Product { Name = "Long Sleeve Jersey", Color = "Red" },
+        //        new Product { Name = "Mountain Frame", Color = "Silver" }
+        //    };
+        //}
+
         #endregion
     }
 }

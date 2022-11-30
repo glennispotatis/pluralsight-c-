@@ -11,7 +11,7 @@ namespace LINQSamples
                 UseQuerySyntax = false
             };
 
-            vm.LINQContainsUsingComparer();
+            vm.AggregateUsingGroupingMoreEfficient();
 
             foreach (var item in vm.Products)
             {
